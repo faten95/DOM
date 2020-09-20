@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart</title>
+    <link rel="stylesheet" href="./cart.css" />
+</head>
+<body>
+    <div class="headerdisplay">
+        <span>shopping bag tota: </span>
+        <span id="totalprice">0 </span>
+        <span>$</span>
+    </div>
+    <section class="sectiondisplay"  id="cart1">
+        <div >
+      <button type="button" id="remove" onclick="buttonremove()">x</button>
+      <span>&hearts;<span>
+      </div>
+      <img  src="./socks.jpg " alt="shoes1" height="200px" width="200px">
+      <span>socks <br> Black</span>
+      <div>
+         <button type="button" id="add" onclick="buttonplus()">+</button>
+         <span class="nbr">0</span>
+         <button type="button" id="substract" onclick="buttonminus()">-</button>
+      </div>
+      <div>
+          <span class="prix">50 </span>
+         <span>$</span>
+      </div>
+      </section> 
+  
+<script src="cart.js"></script>
+</body>
+</html>
